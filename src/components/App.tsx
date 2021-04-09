@@ -23,6 +23,8 @@ interface Category {
   name: string;
 }
 
+// Hello everyone! I am done this not simple test
+
 export const App = () => {
   const [allProducts, setAllProducts] = React.useState<Product[]>([]);
   const [cartItems, setCartItems] = React.useState([] as Product[]);

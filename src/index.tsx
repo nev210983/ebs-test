@@ -1,4 +1,12 @@
-import React from 'react';
 import { render } from 'react-dom';
 
-render(<div>Hello World!</div>, document.getElementById('root'));
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { App } from './components/App';
+import React from 'react';
+
+render(
+  <div>
+    <App />
+  </div>,
+  document.getElementById('root'),
+);
